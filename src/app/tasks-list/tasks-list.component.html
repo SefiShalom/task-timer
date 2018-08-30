@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)]="newTaskName" placeholder="Add new task" id="new-task-input"/>
+
+<button id="add-new-task" (click)="addNewTask(newTaskName)">Add</button>
+
+<div id="tasks-list">
+  <app-task *ngFor="let taskName of tasksNames;" [taskName]="taskName"></app-task>
+</div>
+
+<div id="timer-title">Total Time: {{timerDisplay}}</div>

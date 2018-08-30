@@ -1,0 +1,39 @@
+#new-task-input{
+  widht: 100px;
+  float: left;
+}
+
+#add-new-task{
+  margin-left: 50px;
+}
+
+#timer-title{
+  margin-top: 10px;
+}
+
+#tasks-list{
+  margin-top: 50px;
+  height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.task-frame{
+  width: 300px;
+  height: 80px;
+}
+
+.task-timer{
+  float: left;
+  margin-left: 50px;
+}
+
+.task-name{
+  float: left;
+}
+
+.play-button{
+  margin-left: 50px;
+}
+
+

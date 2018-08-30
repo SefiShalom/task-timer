@@ -1,0 +1,17 @@
+.task-frame{
+  width: 500px;
+  height: 80px;
+}
+
+.task-timer{
+  float: left;
+  margin-left: 50px;
+}
+
+.task-name{
+  float: left;
+}
+
+.play-button{
+  margin-left: 50px;
+}
